@@ -1,0 +1,41 @@
+h1 {
+  color: black;
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+  font-family: arial;
+}
+
+h3 {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.jumbotron{
+  background-image: url("mountains.jpg");
+  background-size: auto;
+  background-position: center;
+  padding-top: 0rem;
+  padding-top: 6rem;
+}
+
+img{
+  height: 600px;
+  width: 600px
+}
+
+.ski{
+  color: black;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center
+}
+
+.skiingtag{
+  color: blue;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}

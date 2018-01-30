@@ -1,47 +1,154 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>My Very Awesome Website</title>
+<html lang="en">
+ <head>
+   <title>Ski</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+   <link rel="stylesheet" href="styles.css">
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
 </head>
-<body>
-  <h1>Welcome!</h1>
 
-  <p>I am going to tell you some of my favorite foods</p>
+ <body>
+   <!--navbar-->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+     <a class="navbar-brand" href="index.html">Skiing</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
 
-  <hr>
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item active">
+           <a class="nav-link" href="pasttrips.html"> Past Trips <span class="sr-only">(current)</span></a>
+         </li>
+         <li class="nav-item active">
+           <a class="nav-link" href="futuretrips.html"> Future Trips </a>
+         </li>
+       </ul>
+     </div>
+   </nav>
 
-  <p><strong>FOODS</strong>
+   <!--jumbotron-->
+   <div class="jumbotron text-center">
+    <h1 class="display-4"></h1>
+   </div>
 
-  <ul>
-    <li>Tacos</li>
-    <li>Cheeseburgers</li>
-    <li>Burritos</li>
-  <p></p>
+   <div class="container-fluid">
+     <div class="row">
+       <div class="col-lg">
+         <h1 class="ski">Ski Adventures</h1>
+         <h3 class="skiingtag">Tracking places I have skiied and plan on skiing in 2018</h3>
+       </div>
+     </div>
+   </div>
 
-  <h2>Tacos</h2>
-    <p><img src="tacos.jpg"></p>
+    <!--grid-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-5">
+          <h3>
+            <i class="fas fa-bars"></i>
+            Past Trips
+          </h3>
+              <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                      <th scope="col">Mountain</th>
+                      <th scope="col">Location</th>
+                    </tr>
+                  	<tr>
+                  		<td>Ajax / Highlands / Snowmass</td>
+                  		<td>Aspen, CO</td>
+                  	</tr>
+                  	<tr>
+                  		<td>Breckenridge</td>
+                  		<td>Breckenridge, CO</td>
+                  	</tr>
+                  	<tr>
+                  		<td>Copper Mountain</td>
+                  		<td>Copper Mountain, CO</td>
+                  	</tr>
+                  	<tr>
+                  		<td>Crested Butte</td>
+                  		<td>Crested Butte, CO</td>
+                  	</tr>
+                  	<tr>
+                  		<td>Keystone</td>
+                  		<td>Keystone, CO</td>
+                  	</tr>
+                  	<tr>
+                  		<td>Telluride</td>
+                  		<td>Telluride, CO</td>
+                  	</tr>
+                  	<tr>
+                  		<td>Vail</td>
+                  		<td>Vail, CO</td>
+                  	</tr>
+                  	<tr>
+                  		<td>Big Sky / Moonlight Basin</td>
+                  		<td>Big Sky, MT</td>
+                  	</tr>
+                  	<tr>
+                  		<td>Park City</td>
+                  		<td>Park City, UT</td>
+                  	</tr>
+                  	<tr>
+                  		<td>Deer Valley</td>
+                  		<td>Deer Valley, UT</td>
+                  	</tr>
+                  	<tr>
+                  		<td>Whistler / Blackcomb</td>
+                  		<td>Whistler, BC, Canada</td>
+                  	</tr>
+                  	<tr>
+                  		<td>Lake Louise</td>
+                  		<td>Lake Louise, AB, Canada</td>
+                  	</tr>
+                  	<tr>
+                  		<td>Sunshine Village</td>
+                  		<td>Banff, AB, Canada</td>
+                  	</tr>
+                  	<tr>
+                  		<td>Zermatt</td>
+                  		<td>Zermatt, Switzerland</td>
+                  	</tr>
+                </table>
+              </div>
 
-  <h2>Cheeseburgers</h2>
-    <p><img src="cheeseburger.jpg"></p>
+        <div class="col-lg-2">
+        </div>
 
-  <h2>Burritos</h2>
-    <p><img src="burrito.jpg"></p>
-
-    <p>
-      <a href="https://www.google.com/search?q=foods&num=100&rlz=1C1EJFA_enUS699US699&source=lnms&tbm=isch&sa=X&ved=0ahUKEwirhbPc38vYAhWI0YMKHV7yA-0Q_AUICigB&biw=831&bih=973">Click hear for pictures of more great foods!</a>
-    </p>
-
-    <p>
-      <a href="tacos.html">One of the best foods</a>
-    </p>
-
-    <p>
-      <a href="cheeseburger.html">Another great food</a>
-    </p>
-
-    <p>
-      <a href="burrito.html">Also a great food</a>
-    </p>
-
-</body>
-</body>
+        <div class="col-lg-5">
+          <h3>
+            <i class="fas fa-bars"></i>
+            Upcoming Trips
+          </h3>
+              <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                      <th scope="col">Mountain</th>
+                      <th scope="col">Location</th>
+                    </tr>
+                  	<tr>
+                  		<td>Sun Valley</td>
+                  		<td>Sun Valley, ID</td>
+                  	</tr>
+                  	<tr>
+                  		<td>Alta / Snowbird</td>
+                  		<td>Alta, UT</td>
+                  	</tr>
+                  	<tr>
+                  		<td>Jackson Hole</td>
+                  		<td>Jackson, WY</td>
+                  	</tr>
+                  	<tr>
+                  		<td>Revelstoke</td>
+                  		<td>Revelstoke, BC, Canada</td>
+                  	</tr>
+                </table>
+              </div>
